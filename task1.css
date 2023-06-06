@@ -1,0 +1,118 @@
+.body{
+    background-color: #fff;
+
+}
+.headersection{
+    /*margin-left:98px ;
+    margin-right: 98px;*/
+    border-bottom: 1px solid #dee2e6;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    background-color: #e5e5e5;
+    box-shadow: 0px 1px #585353cc;
+
+}
+.mainbox{
+    /*border: 2px solid black;*/
+    display: flex;
+    margin-left:98px ;
+    margin-right: 98px;
+
+
+    
+}
+#left-box{
+  position: absolute;
+    top:3px ;
+    right:1px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 23px;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.form-section{
+    /* border: 2px solid black;*/
+    display: flex;
+    margin-top: 50px;
+
+}
+.form-box{
+    /* border: 2px solid black;*/
+    width: 50%;
+    height: 450px;
+    margin-left: 6%;
+    padding-left: 1%;
+    
+    
+}
+#form-leftbox{
+    position: absolute;
+    right: 0px;
+    margin-right: 6%;
+    width:30% ;
+    padding-right: 1%;
+    background-color:#dbe4ee;
+    border-radius: 30px;
+
+   
+}
+.content-box{
+     /*border: 2px solid yellow;*/
+    /*display: flex;*/
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+   
+}
+
+.bachtag{
+    margin-top: 8%;
+    padding: 2%;
+     /*border: 1px solid yellow;*/
+    font-size: 21px;
+    display: inline-block;
+    background-color: rgb(16, 98, 205);
+    border-radius: 25px;
+}
+.content-hedline{
+    margin:30px 0px ;
+    font-size: 50px;
+    background: linear-gradient(90deg, #2B7DDD 3.58%, #45CDD6 50.39%, #46B314 98.18%);;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.content-para{
+   
+    margin-bottom: 1rem;
+    font-size: 28px;
+    width: 72%;
+    line-height: 43px;
+
+}
+.blanck-box{
+    width: 90%;
+    padding:12px 0px ;
+    margin-top: 25px;
+    border: 1px solid rgb(31, 29, 29);
+    border-radius: 8px;
+    padding-left: 5px;
+    color: #000000;
+    
+
+}
+#hover{
+    cursor: pointer;
+    background-color: #46B314;
+    color: black;
+}
+.text-part{
+    margin-top: 4%;
+    font-size: 13px;
+    text-align: center;
+   background-color: #dbe4ee;
+}
